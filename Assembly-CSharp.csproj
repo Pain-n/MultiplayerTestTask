@@ -74,6 +74,7 @@
     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
     <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
     <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
+    <Compile Include="Assets\Scripts\Presenters\Panels\RoomPanelPresenter.cs" />
     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
@@ -96,7 +97,7 @@
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
-    <Compile Include="Assets\Scripts\Presenters\MainMenuPanelPresenter.cs" />
+    <Compile Include="Assets\Scripts\Presenters\Panels\MainMenuPanelPresenter.cs" />
     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
@@ -129,7 +130,10 @@
     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
-    <Compile Include="Assets\Scripts\Presenters\RoomPanelPresenter.cs" />
+    <Compile Include="Assets\Scripts\Presenters\Panels\GameUIPresenter.cs" />
+    <Compile Include="Assets\Scripts\Presenters\PlayerPresenter.cs" />
+    <Compile Include="Assets\Scripts\Models\PlayerModel.cs" />
+    <Compile Include="Assets\Scripts\Presenters\BulletPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon;
 using System;
+using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class GlobalContext : PunBehaviour
 {
@@ -22,12 +24,12 @@ public class GlobalContext : PunBehaviour
     }
 
     public Canvas Canvas;
-    public static event Action PlayersInRoomUpdate;
-
+    public static event UnityAction PlayersInRoomUpdate;
     public override void OnConnectedToMaster()
     {
         Debug.Log("connected to master");
         PhotonNetwork.JoinLobby();
+        PhotonNetwork.automaticallySyncScene = true;
     }
 
     public override void OnJoinedLobby()
@@ -40,10 +42,23 @@ public class GlobalContext : PunBehaviour
         Debug.Log("created room");
     }
 
+    public void ClearCanvas(Scene prevScene, Scene newScene)
+    {
+        Canvas = FindObjectOfType<Canvas>();
+    }
+
+    public override void OnPhotonPlayerConnected(PhotonPlayer newPlayer)
+    {
+        PlayersInRoomUpdate?.Invoke();
+    }
     public override void OnJoinedRoom()
     {
-        Instantiate(Resources.Load<RoomPanelPresenter>("Prefabs/RoomPanel"), Canvas.transform);
+        Instantiate(Resources.Load<RoomPanelPresenter>("Prefabs/Panels/RoomPanel"), Canvas.transform);
         PlayersInRoomUpdate?.Invoke();
         Debug.Log("joined room");
+    }
+    private void OnDestroy()
+    {
+        SceneManager.activeSceneChanged -= ClearCanvas;
     }
 }
