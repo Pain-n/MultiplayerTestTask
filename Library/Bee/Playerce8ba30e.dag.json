@@ -1180,8 +1180,7 @@
         1172,
         1173,
         1174,
-        1175,
-        1176
+        1175
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -22781,20 +22780,6 @@
       "DebugActionIndex": 1074
     },
     {
-      "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "Outputs": [
-        "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "ToBuildDependencies": [
-        6
-      ],
-      "DebugActionIndex": 1075
-    },
-    {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -22806,7 +22791,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1076
+      "DebugActionIndex": 1075
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -22820,7 +22805,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1077
+      "DebugActionIndex": 1076
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Photon3Unity3D.dll",
@@ -22834,7 +22819,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1078
+      "DebugActionIndex": 1077
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -22848,7 +22833,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1079
+      "DebugActionIndex": 1078
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -22862,7 +22847,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1080
+      "DebugActionIndex": 1079
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -22876,7 +22861,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1081
+      "DebugActionIndex": 1080
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll",
@@ -22890,7 +22875,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1082
+      "DebugActionIndex": 1081
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -22904,7 +22889,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1083
+      "DebugActionIndex": 1082
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -22918,7 +22903,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1084
+      "DebugActionIndex": 1083
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -22932,7 +22917,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1085
+      "DebugActionIndex": 1084
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -22946,7 +22931,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1086
+      "DebugActionIndex": 1085
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -22960,7 +22945,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1087
+      "DebugActionIndex": 1086
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -22974,7 +22959,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1088
+      "DebugActionIndex": 1087
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -22988,7 +22973,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1089
+      "DebugActionIndex": 1088
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -23002,7 +22987,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1090
+      "DebugActionIndex": 1089
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -23016,7 +23001,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1091
+      "DebugActionIndex": 1090
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -23030,7 +23015,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1092
+      "DebugActionIndex": 1091
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -23044,7 +23029,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1093
+      "DebugActionIndex": 1092
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -23058,7 +23043,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1094
+      "DebugActionIndex": 1093
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -23072,7 +23057,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1095
+      "DebugActionIndex": 1094
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -23086,7 +23071,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1096
+      "DebugActionIndex": 1095
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -23100,7 +23085,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1097
+      "DebugActionIndex": 1096
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -23114,7 +23099,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1098
+      "DebugActionIndex": 1097
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -23128,7 +23113,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1099
+      "DebugActionIndex": 1098
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -23142,7 +23127,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1100
+      "DebugActionIndex": 1099
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -23156,7 +23141,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1101
+      "DebugActionIndex": 1100
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -23170,7 +23155,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1102
+      "DebugActionIndex": 1101
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -23184,7 +23169,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1103
+      "DebugActionIndex": 1102
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -23198,7 +23183,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1104
+      "DebugActionIndex": 1103
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -23212,7 +23197,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1105
+      "DebugActionIndex": 1104
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -23226,7 +23211,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1106
+      "DebugActionIndex": 1105
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -23240,7 +23225,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1107
+      "DebugActionIndex": 1106
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -23254,7 +23239,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1108
+      "DebugActionIndex": 1107
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -23268,7 +23253,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1109
+      "DebugActionIndex": 1108
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -23282,7 +23267,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1110
+      "DebugActionIndex": 1109
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -23296,7 +23281,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1111
+      "DebugActionIndex": 1110
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -23310,7 +23295,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1112
+      "DebugActionIndex": 1111
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -23324,7 +23309,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1113
+      "DebugActionIndex": 1112
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -23338,7 +23323,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1114
+      "DebugActionIndex": 1113
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -23352,7 +23337,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1115
+      "DebugActionIndex": 1114
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -23366,7 +23351,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1116
+      "DebugActionIndex": 1115
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -23380,7 +23365,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1117
+      "DebugActionIndex": 1116
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -23394,7 +23379,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1118
+      "DebugActionIndex": 1117
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -23408,7 +23393,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1119
+      "DebugActionIndex": 1118
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -23422,7 +23407,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1120
+      "DebugActionIndex": 1119
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -23436,7 +23421,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1121
+      "DebugActionIndex": 1120
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -23450,7 +23435,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1122
+      "DebugActionIndex": 1121
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsNativeModule.pdb",
@@ -23464,7 +23449,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1123
+      "DebugActionIndex": 1122
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -23478,7 +23463,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1124
+      "DebugActionIndex": 1123
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -23492,7 +23477,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1125
+      "DebugActionIndex": 1124
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -23506,7 +23491,7 @@
       "ToBuildDependencies": [
         6
       ],
-      "DebugActionIndex": 1126
+      "DebugActionIndex": 1125
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -23517,7 +23502,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1127
+      "DebugActionIndex": 1126
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_c3gb.info",
@@ -23528,7 +23513,7 @@
         "Library/Bee/artifacts/csharpactions/build.gradle_c3gb.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1128
+      "DebugActionIndex": 1127
     },
     {
       "Annotation": "ActionGenerateProjectFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+6 others)",
@@ -23559,11 +23544,11 @@
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        1128
+        1127
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1129
+      "DebugActionIndex": 1128
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt",
@@ -23574,7 +23559,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt"
       ],
-      "DebugActionIndex": 1130
+      "DebugActionIndex": 1129
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -23585,7 +23570,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1131
+      "DebugActionIndex": 1130
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -23596,7 +23581,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1132
+      "DebugActionIndex": 1131
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -23607,7 +23592,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1133
+      "DebugActionIndex": 1132
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml",
@@ -23618,7 +23603,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1134
+      "DebugActionIndex": 1133
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml",
@@ -23629,7 +23614,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1135
+      "DebugActionIndex": 1134
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml",
@@ -23640,7 +23625,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1136
+      "DebugActionIndex": 1135
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -23651,7 +23636,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1137
+      "DebugActionIndex": 1136
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -23662,7 +23647,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1138
+      "DebugActionIndex": 1137
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -23673,7 +23658,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1139
+      "DebugActionIndex": 1138
     },
     {
       "Annotation": "WriteText C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -23684,7 +23669,7 @@
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1140
+      "DebugActionIndex": 1139
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -23695,7 +23680,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1141
+      "DebugActionIndex": 1140
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -23706,7 +23691,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1142
+      "DebugActionIndex": 1141
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -23717,7 +23702,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1143
+      "DebugActionIndex": 1142
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -23728,7 +23713,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1144
+      "DebugActionIndex": 1143
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -23739,7 +23724,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1145
+      "DebugActionIndex": 1144
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -23750,7 +23735,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1146
+      "DebugActionIndex": 1145
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -23761,7 +23746,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1147
+      "DebugActionIndex": 1146
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -23772,7 +23757,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1148
+      "DebugActionIndex": 1147
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -23783,7 +23768,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1149
+      "DebugActionIndex": 1148
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -23794,7 +23779,7 @@
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1150
+      "DebugActionIndex": 1149
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -23880,11 +23865,11 @@
         65,
         67,
         69,
-        1150
+        1149
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1151
+      "DebugActionIndex": 1150
     },
     {
       "Annotation": "ClassRegistrationGenerator C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -23902,7 +23887,7 @@
         6
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1152
+      "DebugActionIndex": 1151
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o",
@@ -23916,10 +23901,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1152
+        1151
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1153
+      "DebugActionIndex": 1152
     },
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -23952,7 +23937,7 @@
         6
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1154
+      "DebugActionIndex": 1153
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o",
@@ -23966,10 +23951,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1154
+        1153
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1155
+      "DebugActionIndex": 1154
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so",
@@ -23986,11 +23971,11 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1153,
-        1155
+        1152,
+        1154
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1156
+      "DebugActionIndex": 1155
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so",
@@ -24003,10 +23988,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1156
+        1155
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1157
+      "DebugActionIndex": 1156
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so",
@@ -24019,10 +24004,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1157
+        1156
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1158
+      "DebugActionIndex": 1157
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/armeabi-v7a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so",
@@ -24035,10 +24020,10 @@
         "Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1156
+        1155
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1159
+      "DebugActionIndex": 1158
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/armeabi-v7a/stripped/libunity.so -> C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -24053,11 +24038,11 @@
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1158,
-        1159
+        1157,
+        1158
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1160
+      "DebugActionIndex": 1159
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -24071,10 +24056,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1152
+        1151
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1161
+      "DebugActionIndex": 1160
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -24088,10 +24073,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1154
+        1153
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1162
+      "DebugActionIndex": 1161
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -24108,11 +24093,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1161,
-        1162
+        1160,
+        1161
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1163
+      "DebugActionIndex": 1162
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -24125,10 +24110,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1163
+        1162
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1164
+      "DebugActionIndex": 1163
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -24141,10 +24126,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1164
+        1163
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1165
+      "DebugActionIndex": 1164
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -24157,10 +24142,10 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1163
+        1162
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1166
+      "DebugActionIndex": 1165
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -24175,11 +24160,11 @@
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1165,
-        1166
+        1164,
+        1165
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1167
+      "DebugActionIndex": 1166
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -24190,7 +24175,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 1168
+      "DebugActionIndex": 1167
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libil2cpp.so",
@@ -24204,7 +24189,7 @@
       "ToBuildDependencies": [
         467
       ],
-      "DebugActionIndex": 1169
+      "DebugActionIndex": 1168
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -24216,9 +24201,9 @@
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1158
+        1157
       ],
-      "DebugActionIndex": 1170
+      "DebugActionIndex": 1169
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -24229,7 +24214,7 @@
       "Outputs": [
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1171
+      "DebugActionIndex": 1170
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -24243,7 +24228,7 @@
       "ToBuildDependencies": [
         865
       ],
-      "DebugActionIndex": 1172
+      "DebugActionIndex": 1171
     },
     {
       "Annotation": "CopyFiles C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -24255,9 +24240,9 @@
         "C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1165
+        1164
       ],
-      "DebugActionIndex": 1173
+      "DebugActionIndex": 1172
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_xlsm.info",
@@ -24268,7 +24253,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_xlsm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 1174
+      "DebugActionIndex": 1173
     },
     {
       "Annotation": "GuidGenerator C:/Users/pain4/GitHub/MultiplayerTestTask/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -24296,11 +24281,11 @@
       ],
       "ToBuildDependencies": [
         70,
-        1174
+        1173
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1175
+      "DebugActionIndex": 1174
     },
     {
       "Annotation": "Player",
@@ -24599,7 +24584,7 @@
         1124,
         1125,
         1126,
-        1127,
+        1128,
         1129,
         1130,
         1131,
@@ -24620,14 +24605,13 @@
         1146,
         1147,
         1148,
-        1149,
-        1151,
-        1160,
-        1167,
-        1175
+        1150,
+        1159,
+        1166,
+        1174
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 1176
+      "DebugActionIndex": 1175
     }
   ],
   "FileSignatures": [
@@ -25165,7 +25149,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 1176
+          "Player": 1175
         }
 ,  "DefaultNodes": [
     0

@@ -40,10 +40,10 @@ public class PlayerPresenter : PunBehaviour
         transform.position = ContainerRB.position;
         if (direction.magnitude != 0)
         {
-            ContainerRB.transform.position += direction * 0.01f;
+            ContainerRB.transform.position += direction * 0.02f;
 
             Quaternion targetRotation = Quaternion.LookRotation(transform.forward, direction);
-            Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 3f);
+            Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 10f);
             RB.MoveRotation(rotation);
         }
     }

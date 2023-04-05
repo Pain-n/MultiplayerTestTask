@@ -106,6 +106,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.22
     - 2.0.0
     - 2.0.1
+    - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -122,6 +123,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.22
     - 2.0.0
     - 2.0.1
+    - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -3739,6 +3741,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.8.1
+    - 1.8.2
     compatible:
     - 1.4.2
     - 1.4.3
@@ -3747,6 +3750,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.8.1
+    - 1.8.2
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
