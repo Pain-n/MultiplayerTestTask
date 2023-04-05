@@ -37,4 +37,13 @@ MonoBehaviour:
   - PunRespawn
   - RequestForPickupItems
   - RequestForPickupTimes
+  - GetDamage
+  - OnTriggerEnter2D
+  - OnOwnershipTransfered
+  - Shoot
+  - SendDamage
+  - GetGamageRPC
+  - GetDamageRPC
+  - UpdateUI
+  - EndGame
   DisableAutoOpenWizard: 1

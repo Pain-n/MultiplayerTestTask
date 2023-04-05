@@ -1,17 +1,54 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class BulletPresenter : MonoBehaviour
 {
     public int Damage;
     public Rigidbody2D RB;
-    public PlayerPresenter Creator;
-    private void OnCollisionEnter2D(Collision2D collision)
+    public Collider2D Collider;
+    public PhotonPlayer Owner;
+    public PhotonView PView;
+
+    public void SetUp(PhotonPlayer owner)
     {
-        if(collision.collider.tag != "Player") Destroy(gameObject);
-        else if(collision.collider.tag == "Player" && collision.collider.gameObject != Creator.gameObject)
+        Owner = owner;
+        Collider.enabled = true;
+    }
+
+    [PunRPC]
+    void SendDamage(PlayerPresenter player)
+    {
+        player.PView.RPC("GetDamage", PhotonTargets.All, Damage);
+    }
+
+    [PunRPC]
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Field")
         {
-            collision.collider.GetComponent<PlayerPresenter>().GetDamage(Damage);
-            Destroy(gameObject);
+            if (PView.isMine)
+            {
+                PhotonNetwork.Destroy(PView);
+            }
+            else
+            {
+                PView.TransferOwnership(PView.owner);
+                PhotonNetwork.Destroy(PView);
+            }
+        }
+        else if (collision.tag == "Player" && collision.gameObject.GetComponent<PhotonView>().owner != Owner)
+        {
+            SendDamage(collision.gameObject.GetComponent<PlayerPresenter>());
+
+            if (PView.isMine)
+            {
+                PhotonNetwork.Destroy(PView);
+            }
+            else
+            {
+                PView.TransferOwnership(PView.owner);
+                PhotonNetwork.Destroy(PView);
+            }
         }
 
     }

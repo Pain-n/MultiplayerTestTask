@@ -117,7 +117,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709272081449628132}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -148,9 +148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a459990448ab9654481f28a0ea947474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 0
+  Damage: 10
   RB: {fileID: 1709272081449628134}
-  Creator: {fileID: 0}
+  Collider: {fileID: 1121982807820360473}
+  PView: {fileID: 8512547118969070618}
 --- !u!114 &8512547118969070618
 MonoBehaviour:
   m_ObjectHideFlags: 0

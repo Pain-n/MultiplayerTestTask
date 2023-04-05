@@ -797,7 +797,10 @@ MonoBehaviour:
   PView: {fileID: 5093367229758013012}
   ContainerRB: {fileID: 6721153531304380867}
   RB: {fileID: 4973697770141347468}
+  SpriteRenderer: {fileID: 2321619439093934359}
   HPSlider: {fileID: 6206000407646635926}
+  jsMovement: {fileID: 0}
+  direction: {x: 0, y: 0, z: 0}
 --- !u!114 &5093367229758013012
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -451,8 +451,14 @@
 "Assets/PhotonChatApi/ChatUserStatus.cs"
 "Assets/PhotonChatApi/IChatClientListener.cs"
 "Assets/Scripts/GlobalContext.cs"
-"Assets/Scripts/Presenters/MainMenuPanelPresenter.cs"
-"Assets/Scripts/Presenters/RoomPanelPresenter.cs"
+"Assets/Scripts/Models/PlayerModel.cs"
+"Assets/Scripts/Presenters/BulletPresenter.cs"
+"Assets/Scripts/Presenters/JoystickPresenter.cs"
+"Assets/Scripts/Presenters/Panels/GameUIPresenter.cs"
+"Assets/Scripts/Presenters/Panels/MainMenuPanelPresenter.cs"
+"Assets/Scripts/Presenters/Panels/RoomPanelPresenter.cs"
+"Assets/Scripts/Presenters/Panels/WinPanelPresenter.cs"
+"Assets/Scripts/Presenters/PlayerPresenter.cs"
 -langversion:9.0
 
 /deterministic

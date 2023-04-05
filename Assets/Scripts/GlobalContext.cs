@@ -25,16 +25,21 @@ public class GlobalContext : PunBehaviour
 
     public Canvas Canvas;
     public static event UnityAction PlayersInRoomUpdate;
+
+    private void Awake()
+    {
+        SceneManager.activeSceneChanged += FindCanvas;
+    }
     public override void OnConnectedToMaster()
     {
         Debug.Log("connected to master");
         PhotonNetwork.JoinLobby();
-        PhotonNetwork.automaticallySyncScene = true;
     }
 
     public override void OnJoinedLobby()
     {
         Debug.Log("joined lobby");
+        PhotonNetwork.automaticallySyncScene = true;
     }
 
     public override void OnCreatedRoom()
@@ -42,7 +47,7 @@ public class GlobalContext : PunBehaviour
         Debug.Log("created room");
     }
 
-    public void ClearCanvas(Scene prevScene, Scene newScene)
+    public void FindCanvas(Scene prevScene, Scene newScene)
     {
         Canvas = FindObjectOfType<Canvas>();
     }
@@ -59,6 +64,6 @@ public class GlobalContext : PunBehaviour
     }
     private void OnDestroy()
     {
-        SceneManager.activeSceneChanged -= ClearCanvas;
+        SceneManager.activeSceneChanged -= FindCanvas;
     }
 }

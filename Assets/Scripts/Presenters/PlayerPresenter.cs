@@ -1,23 +1,27 @@
 ﻿using Photon;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using MonoBehaviour = Photon.MonoBehaviour;
 
-public class PlayerPresenter : MonoBehaviour
+public class PlayerPresenter : PunBehaviour
 {
     public PhotonView PView;
     public PlayerModel Hero;
     public Rigidbody2D ContainerRB;
     public Rigidbody2D RB;
+    public SpriteRenderer SpriteRenderer;
     public Slider HPSlider;
+
+    public JoystickPresenter jsMovement;
+    public Vector3 direction;
 
     public static event UnityAction<PhotonView, int> UpdateCoinUI;
     void Awake()
     {
         if (!PView.isMine)
         {
-            RB.isKinematic = true;
+            RB.mass = 9999;
         }
         Hero = new PlayerModel();
         Hero.HP = 100;
@@ -31,45 +35,73 @@ public class PlayerPresenter : MonoBehaviour
     {
         if (!PView.isMine) return;
 
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        direction = jsMovement.InputDirection;
 
         transform.position = ContainerRB.position;
-        if (move != Vector3.zero)
+        if (direction.magnitude != 0)
         {
-            ContainerRB.velocity = move * 3;
-            
+            ContainerRB.transform.position += direction * 0.01f;
 
-            Quaternion targetRotation = Quaternion.LookRotation(transform.forward, move);
+            Quaternion targetRotation = Quaternion.LookRotation(transform.forward, direction);
             Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 3f);
             RB.MoveRotation(rotation);
         }
     }
 
+    [PunRPC]
     public void Shoot()
     {
         BulletPresenter bullet = PhotonNetwork.Instantiate("Prefabs/Bullet", transform.position,Quaternion.identity,0).GetComponent<BulletPresenter>();
-        bullet.Creator = this;
+        bullet.SetUp(PView.owner);
         bullet.RB.velocity = new Vector2(transform.up.x, transform.up.y).normalized * 50;
     }
 
+    [PunRPC]
     public void GetDamage(int value)
     {
         Hero.HP -= value;
         HPSlider.value = Hero.HP;
-
-        if(Hero.HP <= 0)
+        if (Hero.HP <= 0)
         {
-            Destroy(gameObject);
+            PhotonNetwork.automaticallySyncScene = false;
+
+            if (!PView.isMine)
+            {
+                EndGame();
+            }
+            else
+            {
+                PhotonNetwork.LeaveRoom();
+                PhotonNetwork.LoadLevel(0);
+            }
         }
     }
 
+    [PunRPC]
+    public void EndGame()
+    {
+        WinPanelPresenter winPanel = Instantiate(Resources.Load<WinPanelPresenter>("Prefabs/Panels/WinPanel"), GlobalContext.Instance.Canvas.transform);
+        Debug.Log(Hero.GoldCollected);
+        winPanel.CoinsText.text = "You collected " + Hero.GoldCollected + " coins!";
+    }
+
+    [PunRPC]
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Coin" && PView.isMine)
         {
             Hero.GoldCollected++;
+
             UpdateCoinUI?.Invoke(PView,Hero.GoldCollected);
-            Destroy(collision.gameObject);
+            if (collision.GetComponent<PhotonView>().isMine)
+            {
+                PhotonNetwork.Destroy(collision.GetComponent<PhotonView>());
+            }
+            else
+            {
+                collision.GetComponent<PhotonView>().TransferOwnership(PView.owner);
+                PhotonNetwork.Destroy(collision.GetComponent<PhotonView>());
+            }
         }
     }
 }
